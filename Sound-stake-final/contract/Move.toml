@@ -1,0 +1,13 @@
+[package]
+name = "MessageBoard123"
+version = "1.0.0"
+authors = []
+
+[addresses]
+message_board_addr = "0x1fd6496190b519d90111533438fd50384cf825ce60a596579b0359ea3996201"
+MyModule = "0x1fd6496190b519d90111533438fd50384cf825ce60a596579b0359ea3996201"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "devnet", subdir = "aptos-move/framework/aptos-framework" }
+
+[dev-dependencies]
